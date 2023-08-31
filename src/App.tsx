@@ -1,11 +1,10 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <>
-      <p>render</p>
+      <h1 className="font-semibold">Color extraction</h1>
+      <div className="mt-10">render somethin</div>
     </>
   );
 }
-
-export default App;
